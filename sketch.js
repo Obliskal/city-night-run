@@ -47,7 +47,7 @@ function setup() {
   createCanvas(700,700);
   x2 = width;
   x3 = width;
-  let a = createA('page2.html','page2');
+  let a = createA('page2.html','img5');
   a.position(350,670);
   a.hide();
 }
