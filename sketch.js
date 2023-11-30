@@ -10,9 +10,11 @@ let currentImage;
 let dash = 5;
 let isDash = false;
 
-let speed = 7;
+let size = 60;
+
+let speed = 10;
 let speed2 = 0;
-let Pspeed = 1;
+let Pspeed = 4;
 
 let x = 0;
 let y = 0;
@@ -60,14 +62,14 @@ function draw(){
   image(img4, 0, 0, 700, 700);
   
   image(img1, x, y, 50, 50);
-  image(img2, x2, y2, 40, 40);
-  image(img3, x3, y3, 40, 40);
+  image(img2, x2, y2, size, size);
+  image(img3, x3, y3, size, size);
   
-  image(img2, x4, y4, 40, 40);
-  image(img3, x5, y5, 40, 40);
+  image(img2, x4, y4, size, size);
+  image(img3, x5, y5, size, size);
   
-  image(img2, x6, y6, 40, 40);
-  image(img3, x7, y7, 40, 40);
+  image(img2, x6, y6, size, size);
+  image(img3, x7, y7, size, size);
    
   x2 = x2-Pspeed;
 
