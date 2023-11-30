@@ -48,7 +48,7 @@ function setup() {
   createCanvas(700,700);
   x2 = width;
   x3 = width;
-  // a = createA('page2.html', 'page2');
+  a = createA('page2.html', 'page2');
   // a.position(350,350);
   //a.hide();
 }
@@ -144,7 +144,7 @@ x4 = x4-Pspeed;
   }
     if (x >= 700) {
     image(img5, 0, 0, 700, 700);
-    a = createA('page2.html', 'page2');
+   // a = createA('page2.html', 'page2');
     a.position(350,350);
     //a.show();
   }
