@@ -47,8 +47,8 @@ function setup() {
   createCanvas(700,700);
   x2 = width;
   x3 = width;
-  let a = createA('page2.html','img5');
-  a.position(350,670);
+  let a = createA('page2.html', /won.png);
+  a.position(0,0);
   a.hide();
 }
 function draw(){
@@ -142,7 +142,7 @@ x4 = x4-Pspeed;
     y = 0;
   }
     if (x >= 700) {
-    image(img5, 0, 0, 500, 500);
+    image(img5, 0, 0, 700, 700);
     a.show();
   }
     // keyboard function
