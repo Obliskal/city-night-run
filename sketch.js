@@ -49,7 +49,7 @@ function setup() {
   x3 = width;
   let a = createA('page2.html','page2');
   a.position(350,670);
-  a.hide;
+  a.hide();
 }
 function draw(){
   background(200);
@@ -143,7 +143,7 @@ x4 = x4-Pspeed;
   }
     if (x >= 700) {
     image(img5, 0, 0, 500, 500);
-    a.show;
+    a.show();
   }
     // keyboard function
   if (keyIsDown(LEFT_ARROW || keyCode == 97)) {
