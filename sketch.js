@@ -48,7 +48,7 @@ function setup() {
   x2 = width;
   x3 = width;
   let a = createA('page2.html','page2');
-  a.position(350,350);
+  a.position(350,670);
   a.hide;
 }
 function draw(){
